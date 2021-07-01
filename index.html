@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind css JIT</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <div
+        class="
+          w-[20rem]
+          h-[20rem]
+          bg-primary
+          sm:bg-yellow-300
+          md:bg-gray-800
+          lg:bg-red-500
+          xl:bg-pink-500
+          2xl:bg-purple-400
+        "
+      >
+        <h1
+          class="
+            text-secondary text-center
+            px-12
+            py-20
+            sm:text-primary
+            md:text-white
+            lg:text-black
+            xl:text-green-500
+            2xl:text-blue-800
+          "
+        >
+          Lorem ipsum, dolor sit
+        </h1>
+        <p class="p-[10rem]">lorem</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- JIT ni ishlatishdan oldin terminalga 'npm run build' deb yozing!!! -->
+
+<!-- screens: {
+    'sm': '640px',
+    // => @media (min-width: 640px) { ... }
+
+    'md': '768px',
+    // => @media (min-width: 768px) { ... }
+
+    'lg': '1024px',
+    // => @media (min-width: 1024px) { ... }
+
+    'xl': '1280px',
+    // => @media (min-width: 1280px) { ... }
+
+    '2xl': '1536px',
+    // => @media (min-width: 1536px) { ... }
+  } -->
+
+<!-- 👆👆👆 Bularni tailwind.config.js ga qoyish shart emas ishlayveradi shunday ham -->

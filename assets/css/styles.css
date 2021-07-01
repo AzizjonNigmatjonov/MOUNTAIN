@@ -1,0 +1,115 @@
+/* @tailwind base; */
+.container {
+    width: 100%
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px
+    }
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+.h-\[20rem\] {
+    height: 20rem
+}
+.w-\[20rem\] {
+    width: 20rem
+}
+.bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgba(4, 22, 93, var(--tw-bg-opacity))
+}
+.p-\[10rem\] {
+    padding: 10rem
+}
+.px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem
+}
+.py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem
+}
+.text-center {
+    text-align: center
+}
+.text-secondary {
+    --tw-text-opacity: 1;
+    color: rgba(253, 199, 27, var(--tw-text-opacity))
+}
+.text-red-500 {
+    --tw-text-opacity: 1;
+    color: rgba(239, 68, 68, var(--tw-text-opacity))
+}
+@media (min-width: 640px) {
+    .sm\:bg-yellow-300 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(252, 211, 77, var(--tw-bg-opacity))
+    }
+    .sm\:text-primary {
+        --tw-text-opacity: 1;
+        color: rgba(4, 22, 93, var(--tw-text-opacity))
+    }
+}
+@media (min-width: 768px) {
+    .md\:bg-gray-800 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(31, 41, 55, var(--tw-bg-opacity))
+    }
+    .md\:text-white {
+        --tw-text-opacity: 1;
+        color: rgba(255, 255, 255, var(--tw-text-opacity))
+    }
+}
+@media (min-width: 1024px) {
+    .lg\:bg-red-500 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(239, 68, 68, var(--tw-bg-opacity))
+    }
+    .lg\:text-black {
+        --tw-text-opacity: 1;
+        color: rgba(0, 0, 0, var(--tw-text-opacity))
+    }
+}
+@media (min-width: 1280px) {
+    .xl\:bg-pink-500 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(236, 72, 153, var(--tw-bg-opacity))
+    }
+    .xl\:text-green-500 {
+        --tw-text-opacity: 1;
+        color: rgba(16, 185, 129, var(--tw-text-opacity))
+    }
+}
+@media (min-width: 1536px) {
+    .\32xl\:bg-purple-400 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(167, 139, 250, var(--tw-bg-opacity))
+    }
+    .\32xl\:text-blue-800 {
+        --tw-text-opacity: 1;
+        color: rgba(30, 64, 175, var(--tw-text-opacity))
+    }
+} 
